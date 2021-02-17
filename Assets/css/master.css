@@ -51,7 +51,7 @@ ul.nav.navbar-nav.navbar-left {
   margin-left: 5px;
 }
 
-.container-fluid {
+div.container-fluid.jumbo {
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -120,8 +120,55 @@ div.card-form p {
 div.card-form p > a {
   font-size: 12px;
   font-weight: 500;
-  text-decoration: underline;
 }
+
+/* MAIN */
+
+section[role=logo] h4 {
+  font-size: 16px;
+  padding-top: 40px;
+
+}
+
+section[role=logo] img {
+  height: 125px;
+  width: 100%;
+}
+
+
+a.my-caret:after {
+  position: relative;
+  top:2px;
+  margin-left: 8px;
+  content: "›";
+  font-size: 20px;
+}
+
+section[role="deploy"] h2 {
+  padding-top: 80px;
+}
+
+section[role="deploy"] h2 + p {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+ul {
+  padding: 0;
+}
+
+section[role="deploy"] ul li {
+  list-style: none;
+  border-left: 2px solid rgba(91, 105, 135, 0.3);
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+/* MAIN */
+
 
 /* UTILITY */
 
@@ -141,6 +188,10 @@ div.card-form p > a {
   color: hsl(221,93%,16%);
 }
 
+.f-500 {
+  font-weight: 500;
+}
+
 .bg-blue {
   background-color: #006aff;
 }
@@ -149,8 +200,20 @@ div.card-form p > a {
   background-color: #FFF;
 }
 
+.bg-lightgrey {
+  background-color: rgb(243, 245, 249);
+}
+
 .box-shadow {
   box-shadow: 2px 2px #d3d3d3;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.pb-1 {
+  padding-bottom: 40px;
 }
 
 /* UTILITY */

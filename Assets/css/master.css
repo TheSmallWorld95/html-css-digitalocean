@@ -166,6 +166,132 @@ section[role="deploy"] ul li {
   padding-top: 10px;
 }
 
+section[role="deploy"] ul li a {
+  color: rgb(91, 105, 135);
+}
+
+section[role="deploy"] img {
+  padding-bottom: 15px;
+}
+
+section[role="deploy"] p {
+  padding-bottom: 15px;
+  color: rgb(91, 105, 135);
+}
+
+section[role="deploy"] h4 {
+  font-weight: 700;
+  color: hsl(221,93%,16%);
+}
+
+
+section[role="designed"] h2 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+
+section[role="designed"] p {
+  font-size: 18px;
+  padding-bottom: 150px;
+}
+
+section[role="designed"] img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+section[role="designed"] h4 {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+div.img-container {
+  max-width: 992px;
+  position: relative;
+  margin: 0 auto;
+}
+
+div.right-arrow, div.left-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0 ,-50%);
+  font-size: 40px;
+}
+
+div.right-arrow {
+  right: 0;
+}
+
+div.left-arrow {
+  left: 0;
+}
+
+section[role="designed"] ul li {
+  list-style: none;
+  display: inline;
+
+}
+
+section[role="feature"] img {
+  padding-top: 20px;
+  width: 20%;
+}
+
+
+
+section[role="feature"] h4 {
+  color: hsl(221,93%,16%);
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+section[role="feature"] p {
+  color: rgb(91, 105, 135);
+
+}
+
+section[role="feature"] a {
+  color: #006aff;
+}
+
+section[role="regions"] div.container-fluid {
+  background-image: linear-gradient(to bottom, rgba(0,0,255,0.8), rgba(0,0,255,1));
+}
+
+div.w-98 {
+  width: 98%;
+  margin: 0 auto;
+}
+
+section[role="regions"] h5,section[role="regions"] p {
+  color: #FFF;
+  line-height: 1;
+  margin: 0;
+}
+
+section[role="regions"] h5,section[role="regions"] p,section[role="regions"] a {
+  line-height: 2;
+  padding: 10px 0;
+}
+
+section[role="regions"] a {
+  color: rgb(0, 215, 210);
+  float: right;
+}
+
+section[role="regions"] a:after {
+  position: relative;
+  margin-left: 8px;
+  content: "›";
+  font-size: 14px;
+}
+
+
+
+
+
+
 
 /* MAIN */
 
@@ -192,6 +318,10 @@ section[role="deploy"] ul li {
   font-weight: 500;
 }
 
+.f-700 {
+  font-weight: 700;
+}
+
 .bg-blue {
   background-color: #006aff;
 }
@@ -212,9 +342,19 @@ section[role="deploy"] ul li {
   text-decoration: underline;
 }
 
+.bordered {
+  border-bottom: 1px solid #FFF;
+}
+
 .pb-1 {
   padding-bottom: 40px;
 }
+
+.pb-2 {
+  padding-bottom: 80px;
+}
+
+
 
 /* UTILITY */
 
